@@ -7,15 +7,15 @@ int main()
 	S = (M * 2 + D) % 3;
 	if (S == 0)
 	{
-		cout << "���q";
+		cout << "normal";
 	}
 	else if (S == 1)
 	{
-		cout << "�N";
+		cout << "good";
 	}
 	else if (S == 2)
 	{
-		cout << "�j�N";
+		cout << "very good";
 	}
 	return 0;
 }

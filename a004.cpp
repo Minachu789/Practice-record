@@ -6,9 +6,9 @@ int main(){
 	while (i != 100){
 	cin >> y;
 	if (y % 4 == 0){
-		cout << "�|�~" << endl;
+		cout << "平年" << endl;
 	} else {
-		cout << "���~" << endl;
+		cout << "閏年" << endl;
 	}
 	i += 1;
 	}
