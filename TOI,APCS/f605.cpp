@@ -25,4 +25,5 @@ int main() {
     }
 
     cout << times << " " << cost;
+    return 0;
 }
